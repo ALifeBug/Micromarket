@@ -1,0 +1,125 @@
+.userInfo{
+    margin: 0 auto 100px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 160px;
+}
+.top{
+    height: 50px;
+    width: 1000px;
+}
+.top span{
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.top a{
+    color: #f7f7f7;
+    text-decoration: none;
+    line-height: 25px;
+    padding: 1px;
+    display: inline-block;
+    margin-top: 16px;
+    float: right;
+    width: 100px;
+    height: 28px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+.bottom{
+    color: #f7f7f7;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+
+.tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tab-group li{
+    margin-left: 0 ;
+}
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding:6px 0;
+    border-bottom: 1px solid #000000;
+    color: #a0b3b0;
+    font-size: 16px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.tab-group li a:hover {
+    background-color: #040505;
+    /*box-shadow: 3px -3px 3px #040505;*/
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+.tab-group .active a {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+.tab-content > div:not(:first-child) {
+    display: none;
+}
+.addBtn{
+    background: transparent;
+    width: 200px;
+}
+a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+a:hover{
+    color: #1c94c4;
+    text-decoration: none;
+}
+.scroll{
+    width:100%;
+    height:500px;
+    overflow:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.scroll div{
+    width:400px;
+    height:400px;
+}
+.scroll::-webkit-scrollbar{
+    width:4px;
+    height:4px;
+}
+.scroll::-webkit-scrollbar-track{
+    background: #f6f6f6;
+    border-radius:2px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background: #aaa;
+    border-radius:2px;
+}
+.scroll::-webkit-scrollbar-thumb:hover{
+    background: #747474;
+}
+.scroll::-webkit-scrollbar-corner{
+    background: #f6f6f6;
+}
+.products{
+    width: 1000px;
+    margin-left: 40px
+}
+.empty{
+    margin: 10px auto;
+    font-size: 20px;
+    color: #5acde2;
+    width: 300px;
+}
