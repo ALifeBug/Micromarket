@@ -1,0 +1,28 @@
+.form{
+    margin: 20px 100px;
+    padding: 20px;
+}
+.btn,.text,input[type="text"],input[type="number"]{
+    background: transparent;
+    color: #f7f7f7;
+}
+.button {
+    width: 200px;
+}
+input[type=radio]{
+    width: 10px;
+    height: auto;
+}
+.category{
+    margin-left: -15px;
+}
+.category div{
+    float: left;
+}
+h1{
+    margin: 10px auto;
+    text-align: center
+}
+.item{
+    font-weight: bold;
+}

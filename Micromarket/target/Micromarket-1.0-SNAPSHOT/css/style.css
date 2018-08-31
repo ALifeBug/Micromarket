@@ -1,0 +1,25 @@
+body{
+    background: url("../img/background.png") no-repeat;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 1200px;
+    font-family:  "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+.ibody{
+    width: 1200px;
+    height: 1120px;
+    margin:  0 auto;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6);
+    color: #f7f7f7;
+    box-shadow: 0 0 10px 5px #040505;
+}
+.banner li{
+    margin-left: 50px;
+    font-family:  "Microsoft Yahei";
+    font-size: 19px;
+}
+.logo{
+    width:55px;
+    border-radius: 50%
+}

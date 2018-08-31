@@ -1,0 +1,51 @@
+tr.info td:first-child{
+    text-align: right;
+}
+.btn{
+    margin-top: 20px;
+    width: 150px;
+    background: transparent;
+}
+a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+a:hover{
+    color: #1c94c4;
+    text-decoration: none;
+}
+.nameprice{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto
+}
+.detail-head{
+    margin-top:10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.traded{
+    font-size: 23px;
+    font-family: Consolas;
+    color: #005cbf
+}
+.traded-td{
+    text-align: left;
+    font-size: 20px
+}
+.interest{
+    margin-top:10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.interest-div{
+    margin-top: 10px;
+    height: 200px;
+    overflow: auto;
+    width: 100%;
+}
+.interest-table{
+    color: #f7f7f7;
+    min-width: 1000px;
+    font-size: 17px
+}
